@@ -4,10 +4,13 @@
 		<title>	CCNA 200-120 Quiz APP</title>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="js/news.js"></script>
+		<script type="text/javascript" src="js/jquery.mobile-1.4.4.min.js"></script>
+	
 		<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.4.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-		<script type="text/javascript" src="js/jquery.mobile-1.4.4.min.js"></script>
+		
 
 
 
@@ -30,13 +33,15 @@
 
 					<div  class= 'lists' data-role="controlgroup" data-mini="true" data-theme="a" data-corners="false">
 
-						<a href="news.html" data-role="button" data-icon="info" rel="external" data-transition="flip">News</a>
+						<a href="news.html" data-role="button" data-icon="info" rel="external" >News</a>
 						<a href="quiz.html" data-role="button" data-icon="action" rel="external">quiz</a>
 						<a href="video.html" data-role="button" data-icon="video" rel="external">Videos</a>
 						<a href="ebook.html" data-role="button" data-icon="star" rel="external">Ebook</a>
 						<a href="social.html" data-role="button" data-icon="user" rel="external">Social Sharing</a>
 						<a href="aboutus.html" data-role="button" data-icon="grid" rel="external">About Us</a>
-						<a href="privacy.html" data-role="button" data-icon="lock" rel="external">Privacy</a>
+						<a href="privacy.html" data-role="button"  data-rel="dialog" data-icon="lock" rel="external">Privacy</a>
+						
+
 					</div> 
 	        		
 				</div>
@@ -44,9 +49,13 @@
 			
 
 
-				<div class="content-text" data-role="content">
-				
-				<p>This is news</p>
+				<div class="content-text" data-role="content" id ="newsblock" >
+
+							
+								
+							
+
+				 </div>
 			</div>
 		
 
